@@ -1,0 +1,65 @@
+
+body{
+    color: white;
+    margin: 100px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.title{
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 32px;
+}
+
+button{
+    padding: 8px 20px;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+p{
+    opacity: 40%;
+}
+
+img{
+    margin-bottom: 20px;
+}
+
+section{
+    padding: 40px;
+
+}
+
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+
+
+}
+.sedans button{
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs{
+    background-color:hsl(184, 100%, 22%) ;
+
+}
+
+.suvs button{
+    color:hsl(184, 100%, 22%) ;
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%) ;
+    
+
+}
+.luxury button{
+    color:hsl(179, 100%, 13%) ;
+}
